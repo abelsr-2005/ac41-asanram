@@ -3,7 +3,7 @@
 $conexion = new mysqli(
     "db",
     "root",
-    getenv("Admin1.")
+    getenv("ROOT_PASSWORD")
 );
 
 if ($conexion->connect_error) {

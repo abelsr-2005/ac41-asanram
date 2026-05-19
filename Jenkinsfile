@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        ROOT_PASSWORD = credentials('mariadb-pass')
+        ROOT_PASSWORD = credentials('mariadb_pass')
     }
 
     stages {
